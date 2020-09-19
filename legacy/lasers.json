@@ -1,0 +1,524 @@
+{   
+    "lasers": [
+        {
+            "id": 1,
+            "productName": "УЛ-2,5ЛТ",
+            "projShape": [
+                {
+                    "line": false,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": true,
+                    "distance": 2
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": true, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": true,
+                    "marking-comment": "разметка",
+                    "edger": false,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": false,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "2,5 мВт",
+            "waveLength": "635 нм",
+            "beamAngle": "100...200°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "5В, DC",
+            "powerSupply": "Источник питания ИЭС6, DR-15-5",
+            "cost": "2100"
+        },
+        {
+            "id": 2,
+            "productName": "УЛ-3",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 2
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": true, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": false,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "3 мВт (или 10 мВт)",
+            "waveLength": "635 нм (или 650 нм при 10 мВт)",
+            "beamAngle": "100...200°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "5В, DC",
+            "powerSupply": "Источник питания ИЭС6, DR-15-5",
+            "cost": "Под заказ"
+        },
+        {
+            "id": 3,
+            "productName": "УЛ2-4",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 4
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": true, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "4 мВт",
+            "waveLength": "635 нм",
+            "beamAngle": "100...200°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "3400"
+        },
+        {
+            "id": 4,
+            "productName": "УЛ2-5",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 4
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": true, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "5 мВт",
+            "waveLength": "635 нм",
+            "beamAngle": "100...200°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "Под заказ"
+        },
+        {
+            "id": 5,
+            "productName": "УЛ2-7",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 7
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": true,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "7 мВт",
+            "waveLength": "635 нм",
+            "beamAngle": "100...200°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "4000"
+        },
+        {
+            "id": 6,
+            "productName": "УЛ2-100",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 15
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": true,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "100 мВт",
+            "waveLength": "650 нм",
+            "beamAngle": "100...120°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "5000"
+        },
+        {
+            "id": 7,
+            "productName": "УЛ2-200",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 20
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": true,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "200 мВт",
+            "waveLength": "650 нм",
+            "beamAngle": "100...120°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "6000"
+        },
+        {
+            "id": 8,
+            "productName": "УЛ2-5G",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 10
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": true,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "10 мВт",
+            "waveLength": "520 нм",
+            "beamAngle": "100...120°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "5000"
+        },
+        {
+            "id": 9,
+            "productName": "УЛ2-10G",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 15
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": true,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "10 мВт",
+            "waveLength": "520 нм",
+            "beamAngle": "100...120°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "5500"
+        },
+        {
+            "id": 10,
+            "productName": "УЛ2-30G",
+            "projShape": [
+                {
+                    "line": true,
+                    "cross": false,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 20
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": true,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": true,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": true,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": false,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": false,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "30 мВт",
+            "waveLength": "520 нм",
+            "beamAngle": "100...120°",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "6500"
+        },
+        {
+            "id": 11,
+            "productName": "УЛ2-5K",
+            "projShape": [
+                {
+                    "line": false,
+                    "cross": true,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 5
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": false,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": false,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": true,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": true,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "5 мВт",
+            "waveLength": "635 нм",
+            "beamAngle": "15° или 60°",
+            "optMaterial": "оптический пластик",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "4000"
+        },
+        {
+            "id": 12,
+            "productName": "УЛ2-5KG",
+            "projShape": [
+                {
+                    "line": false,
+                    "cross": true,
+                    "dot": false,
+                    "lineAndDot": false,
+                    "distance": 10
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": false,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": false,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": true,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": true,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "5 мВт",
+            "waveLength": "520 нм",
+            "beamAngle": "60°",
+            "optMaterial": "оптический пластик",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "5000"
+        },
+        {
+            "id": 12,
+            "productName": "УЛ2-5T",
+            "projShape": [
+                {
+                    "line": false,
+                    "cross": false,
+                    "dot": true,
+                    "lineAndDot": false,
+                    "distance": 10
+                }
+            ],
+            "usage": [
+                {
+                    "crosscutter": false, 
+                    "crosscutter-comment": "торцовочный станок",
+                    "marking": false,
+                    "marking-comment": "разметка",
+                    "edger": false,
+                    "edger-comment": "обрезной станок",
+                    "multipleEdger": false,
+                    "multipleEdger-comment": "многопильный станок",
+                    "shearer": false,
+                    "shearer-comment": "гильотинные ножницы",
+                    "swingbladeMill": false,
+                    "swingbladeMill-comment": "бревнопильный станок",
+                    "flagging": true,
+                    "flagging-comment": "разметочные операции",
+                    "plasmaCutter": true,
+                    "plasmaCutter-comment": "установка плазменной резки"
+                }
+            ],
+            "radPower": "5 мВт",
+            "waveLength": "650 нм",
+            "beamAngle": "-",
+            "optMaterial": "стекло",
+            "supplyVoltage": "7...24В",
+            "powerSupply": "Источник питания ИЭС18, DR-15-12",
+            "cost": "3500"
+        }
+    ]
+}
